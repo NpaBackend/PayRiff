@@ -25,5 +25,5 @@ interface CreateOrder
         ?string $approveURL = null,
         ?string $cancelURL = null,
         ?string $declineURL = null
-    ): array|bool;
+    ): string|bool;
 }
