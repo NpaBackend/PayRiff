@@ -1,0 +1,40 @@
+{
+  "name": "npa/payriff",
+  "description": "Azerbaijan PayRiff payment gateway for the Laravel framework.",
+  "keywords": [
+    "laravel","framework","payriff","payriff gateway","payriff php","payriff laravel","projects of azerbaijan","npa payriff gateway"
+  ],
+  "authors": [
+    {
+      "name": "Projects Of Azerbaijan",
+      "email": "info@npa.az",
+      "homepage": "https://npa.az",
+      "role": "Company"
+    },
+    {
+      "name": "Huseyn JavaDle",
+      "email": "huseynjavadle@gmail.com",
+      "homepage": "https://npa.az",
+      "role": "Full Stack Developer"
+    }
+  ],
+  "support": {
+    "email": "info@npa.az"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "NPA\\PayRiff\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
