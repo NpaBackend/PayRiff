@@ -20,7 +20,7 @@ trait CreateOrderHelper
         ?string   $approveURL = null,
         ?string   $cancelURL = null,
         ?string   $declineURL = null
-    ): array|bool
+    ): string|bool
     {
         $response = $this->sendRequest('createOrder', [
             "amount" => $amount,
